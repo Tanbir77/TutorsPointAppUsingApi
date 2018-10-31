@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="vendor/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/signIn.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="Find.html" class="hidden" id="find">Find Tuition</a>
+        <a href="SignUp.html" class="hidden" id="signUp">Sign Up</a>
+        <a href="SignIn.html" class="active" id="login">Sign In</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+
+    <p align="center">
+        <font size="20" color="#CB4335"> Please login </font>
+    </p>
+    <table align="center" width="30%">
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type="text" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <span class="errorMessage" id="errMsgEmail"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>
+                <input type="password" id="pass">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <span class="errorMessage" id="errMsgPass"></span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="Submit" class="button" id="loginBtn" value="Log In">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

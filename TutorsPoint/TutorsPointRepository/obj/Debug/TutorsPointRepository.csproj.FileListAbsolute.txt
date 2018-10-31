@@ -1,0 +1,15 @@
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointRepository.dll.config
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointRepository.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointRepository.pdb
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\EntityFramework.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\EntityFramework.xml
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\obj\Debug\TutorsPointRepository.csproj.CoreCompileInputs.cache
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\obj\Debug\TutorsPointRepository.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\obj\Debug\TutorsPointRepository.pdb
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\obj\Debug\TutorsPointRepository.csprojResolveAssemblyReference.cache
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointEntity.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointInterface.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointEntity.pdb
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointRepository\bin\Debug\TutorsPointInterface.pdb

@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="vendor/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/profile.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="Find.html" id="find">Find Tuition</a>
+        <a href="JobPost.html" id="job">Post A Job</a>
+        <a href="ApplyShow.html" id="applies">Applied List</a>
+        <a href="Profile.html" class="active" id="profile">Profile</a>
+        <a href="Index.html" id="logOut">Logout</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+
+    <p align="center">
+        <span id="profileType" style="font-size: 40px; color:#CB4335"></span>
+    </p>
+
+    <div id="parentProfileView" class="hidden">
+        <table align="center">
+            <tr>
+                <td>
+                    <b>Name:</b>
+                </td>
+                <td>
+                    <input type="text" id="name" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Gender:</b>
+                </td>
+                <td>
+                    <input type="text" id="gender" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Phone Number:</b>
+                </td>
+                <td>
+                    <input type="text" id="phone" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Email Id:</b>
+                </td>
+                <td>
+                    <input type="text" id="email" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Adress:</b>
+                </td>
+                <td>
+                    <input type="text" id="address" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Password:</b>
+                </td>
+                <td>
+                    <input type="text" id="password" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" class="button" id="btnforParent" value="Update">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="tutorProfileView" class="hidden">
+        <table align="center">
+            <tr>
+                <td>
+                    <b>Name:</b>
+                </td>
+                <td>
+                    <input type="text" id="tName" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Date of birth:</b>
+                </td>
+                <td>
+                    <input type="text" id="date" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Gender:</b>
+                </td>
+                <td>
+                    <input type="text" id="tGender" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Phone Number:</b>
+                </td>
+                <td>
+                    <input type="text" id="tPhone" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Email Id:</b>
+                </td>
+                <td>
+                    <input type="text" id="tEmail" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Institution:</b>
+                </td>
+                <td>
+                    <input type="text" id="institution" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Password:</b>
+                </td>
+                <td>
+                    <input type="text" id="tPassword" value="" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" class="button" id="btnforTutor" value="Update">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Find Job</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="vendor/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/findJobs.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="Find.html" class="active" id="find">Find Tuition</a>
+        <a href="SignUp.html" class="hidden" id="signUp">Sign Up</a>
+        <a href="SignIn.html" class="hidden" id="login">Sign In</a>
+        <a href="Profile.html" class="hidden" id="profile">Profile</a>
+        <a href="Index.html" class="hidden" id="logOut">Logout</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+
+    <div align="center">
+        <p>
+            <font size="20" color="#CB4335">Search Tutions</font>
+        </p>
+        <span>Search by :</span>
+        <input type="text" name="text" id="searchText" placeholder="location">
+        <span>Sort by :</span>
+        <select id="searchOptions">
+            <option disabled selected value=""> -- select an option -- </option>
+            <option value="salaryHTL">Salary: low to high</option>
+            <option value="salaryLTH">Salary: high to low</option>
+        </select>
+        <br>
+        <br>
+
+        <div id="jobs">
+            
+        </div>
+    </div>
+</body>
+
+</html>

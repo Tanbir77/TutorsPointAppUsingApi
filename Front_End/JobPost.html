@@ -1,0 +1,146 @@
+<html>
+
+<head>
+	<title>Post a Job</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="vendor/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/postJob.js"></script>
+	<script type="text/javascript" src="js/formEvents.js"></script>
+</head>
+
+<body>
+	<div class="topnav">
+		<a href="Index.html">Home</a>
+		<a href="JobPost.html" id="job" class="active">Post A Job</a>
+		<a href="ApplyShow.html" id="applies">Applied List</a>
+		<a href="Profile.html" id="profile">Profile</a>
+		<a href="Index.html" id="logOut">Logout</a>
+		<a href="ContactUs.html">Contact Us</a>
+	</div>
+
+	<p align="center">
+		<font size="20" color="#CB4335">Post A Job</font>
+	</p>
+
+	<div id="newPost" class="hidden">
+		<table align="center">
+			<tr>
+				<td>Title:</td>
+				<td>
+					<input type="text" id="title">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgTitle"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Gender:</td>
+				<td>
+					<input type="radio" value="Male" name="gender"> Male
+					<input type="radio" value="Female" name="gender"> Female
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgGender"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Class:</td>
+				<td>
+					<input type="text" id="class">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgClass"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Days Per Week:</td>
+				<td>
+					<input type="number" id="dPW">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgDPW"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Salary:</td>
+				<td>
+					<input type="number" id="salary">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgSalary"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Preferable:</td>
+				<td>
+					<input type="text" id="preferable">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgPreferable"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Subjects:</td>
+				<td>
+					<input type="text" id="subs">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgSubs"></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Medium:</td>
+				<td>
+					<input type="text" id="medium">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<span class="errorMessage" id="errMsgMedium"></span>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="button" class="button" id="submit" value="Save">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="allPosts" align="center">
+		
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\obj\Debug\TutorsPointInterface.csproj.CoreCompileInputs.cache
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\bin\Debug\TutorsPointInterface.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\bin\Debug\TutorsPointInterface.pdb
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\bin\Debug\TutorsPointEntity.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\bin\Debug\TutorsPointEntity.pdb
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\obj\Debug\TutorsPointInterface.csprojResolveAssemblyReference.cache
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\obj\Debug\TutorsPointInterface.dll
+F:\Tanbir_porashuna_AIUB\ASP_DOT_NET\TutorsPoint\TutorsPointInterface\obj\Debug\TutorsPointInterface.pdb
